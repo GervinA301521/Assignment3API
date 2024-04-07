@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./img/Weather.jpg');
+    background-size: contain; /* Resize background image to fit within container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555;
+}
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-right: 10px; /* Add margin-right to create space */
+}
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+#weatherInfo {
+    text-align: left;
+}
+#weatherInfo h2 {
+    margin-top: 0;
+    color: #333;
+}
+#weatherInfo p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.btn {
+    background: #343fd9;
+    background-image: -webkit-linear-gradient(top, #343fd9, #45b82b);
+    background-image: -moz-linear-gradient(top, #343fd9, #45b82b);
+    background-image: -ms-linear-gradient(top, #343fd9, #45b82b);
+    background-image: -o-linear-gradient(top, #343fd9, #45b82b);
+    background-image: linear-gradient(to bottom, #343fd9, #45b82b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  
